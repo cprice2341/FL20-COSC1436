@@ -417,3 +417,41 @@ void menu8Fuentes()
                                                                             // of polygon
     cout << "The area of your polygon is " << area << " square units" << endl;
 }
+// *****************************************************************************************
+// MENU ID:          14
+// FUNCTION:         menu14Price
+// DESCRIPTION:      PRINTS THE FOLLOWING FUNCTION 'ASCII' ON THE SCREEN.
+// OUTPUT EXAMPLE:   Program outputs the following:
+//                      "ASCII"
+// *****************************************************************************************
+void menu14Price()
+{
+#include <iostream>
+
+//prototype for the function
+void printASCIIArt();
+
+using namespace std;
+
+int main()
+{
+    //call the function
+    printASCIIArt();
+
+    return 0;
+}
+
+void printASCIIART();
+{
+    //This function simply prints a set of predefines characters using
+    //cout statements to print the word 'ASCII' on the screen.
+    cout << "********  ********  ********  *  *" << endl;
+    cout << "*      *  *         *         *  *" << endl;
+    cout << "*      *  *         *         *  *" << endl;
+    cout << "*      *  *         *         *  *" << endl;
+    cout << "********  ********  *         *  *" << endl;
+    cout << "*      *         *  *         *  *" << endl;
+    cout << "*      *         *  *         *  *" << endl;
+    cout << "*      *         *  *         *  *" << endl;
+    cout << "*      *  ********  ********  *  *" << endl;
+}
